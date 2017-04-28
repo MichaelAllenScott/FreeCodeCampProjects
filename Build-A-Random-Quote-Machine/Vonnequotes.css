@@ -1,3 +1,33 @@
+body {
+    background-color: #F4EFCC;
+}
+
 #header{
     font-family: 'Pacifico', cursive;
+}
+
+#quote-button{
+    font-family: 'Pacifico', cursive;
+    background-color: #895737;
+}
+
+#main-container{
+    text-align: center;
+}
+
+#quote-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #FCA253;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 16pt;
+    color: white;
+}
+
+#vonneImage {
+    height: 200px;
+    width: 135px;
+    resize: both;
 }

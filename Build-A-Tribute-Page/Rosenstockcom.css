@@ -1,0 +1,54 @@
+body {
+    background-image: url("Assets/pink dust.png");
+    background-repeat: repeat;
+}
+
+h1 { 
+    font-family: "bearpawregular", sans-serif; 
+    font-size: 160px;
+    color: #89dfff;
+}
+
+h3 { 
+    font-family: "permanent_markerregular", sans-serif; 
+    font-size: 40px;
+    color: lightgray;
+}
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    h1 {
+        font-size: 120px; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    h1 {
+        font-size: 100px; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 700px) { /* screen size until 500px */
+    h1 {
+        font-size: 60px; /* 0.8x default size */
+        }
+    }
+
+#scribbles {
+    position: relative; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+}
+
+#scribbleImg {
+    opacity: .55;
+}
+
+#HeaderText {
+    position: relative; 
+    top: -310px; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    z-index: 1;
+    display: block;
+}

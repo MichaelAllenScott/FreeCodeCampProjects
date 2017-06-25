@@ -1,0 +1,208 @@
+@font-face {
+font-family: UniSansTI;
+src: url("Uni Sans Thin Italic.otf") format("opentype");
+}
+
+@font-face {
+font-family: UniSansT;
+src: url("Uni Sans Thin.otf") format("opentype");
+}
+
+@font-face {
+font-family: UniSansH;
+src: url("Uni Sans Heavy.otf") format("opentype");
+}
+
+@font-face {
+font-family: UniSansHI;
+src: url("Uni Sans Heavy Italic.otf") format("opentype");
+}
+
+body, html { 
+    overflow-x: hidden; 
+    overflow-y: auto;
+}
+
+h2{
+	font-family: UniSansT;
+	display: inline;
+}
+
+h1{
+	font-family: UniSansHI;
+	font-size: 60;
+	display: inline;
+}
+
+p{
+	display: inline;
+}
+
+#Main-Block-Background{
+    position: fixed;
+	margin-left: 20%;
+	width: 60%;
+	margin-right: 20%;
+	z-index: 0;
+}
+
+#Color-Info{
+	font-family: UniSansTI;
+	text-align: center;
+	position: relative;
+	margin-top: 1%;
+	margin-bottom: -4%; 
+	font-size: 25;
+	z-index: 5;
+}
+
+#ButtonWords{
+	font-family: UniSansHI;
+	position: fixed;
+	margin-top: -3.25%;
+	margin-left: 1.25%;
+}
+
+#Plot-2D{
+	position: fixed;
+	margin-top: 5%;
+    margin-left: 25%;
+	width: 25%;
+	margin-right: 50%;
+	z-index: 1;
+}
+
+#BaseRect{
+	visibility: hidden;
+}
+
+#HueRect{
+	visibility: visible;
+}
+
+#BrightRect{
+	visibility: visible;
+}
+
+#SatRect{
+	visibility: hidden;
+}
+
+#Adjust-Box{
+	position: fixed;
+	margin-top: 5%;
+    margin-left: 52%;
+	width: 3%;
+	height: 25%;
+	margin-right: 40%;
+	z-index: 1;
+}
+
+#BaseAdjust{
+	visibility: visible;
+}
+
+#AdjustHue{
+	visibility: hidden;
+}
+
+#AdjustSat{
+	visibility: visible;
+}
+
+#AdjustBright{
+	visibility: hidden;
+}
+
+#adjustLine{
+	z-index: 5;
+}
+
+#Chosen-Color{
+	position: fixed;
+	margin-top: 5%;
+    margin-left: 57%;
+	width: 20%;
+	height: 7%;
+	z-index: 1;
+}
+
+#HueBox{
+	position: fixed;
+	padding-top: 5px;
+	margin-top: 13%;
+    margin-left: 57%;
+	width: 20%;
+	height: 7%;
+	z-index: 2;
+	font-family: UniSansTI;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#SatBox{
+	position: fixed;
+	padding-top: 5px;
+	margin-top: 17%;
+    margin-left: 57%;
+	width: 20%;
+	height: 7%;
+	z-index: 2;
+	font-family: UniSansHI;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#BrightBox{
+	position: fixed;
+	padding-top: 5px;
+	margin-top: 21%;
+    margin-left: 57%;
+	width: 20%;
+	height: 7%;
+	z-index: 2;
+	font-family: UniSansTI;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+
+#Selector-Circle{
+	z-index: 3;
+}
+
+#backgroundButton{
+	position: fixed;
+	margin-top: 25%;
+    margin-left: 59.75%;
+	width: 14%;
+	height: 6%;
+	z-index: 1;
+	cursor: pointer;
+}
+ #ButtonRect:hover, #buttonWords:hover{
+    fill-opacity:.40;
+ }
+
+ #ButtonRect:active{
+    fill-opacity:.50;
+ }
+
+ #buttonWords:active{
+    fill-opacity:.50;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

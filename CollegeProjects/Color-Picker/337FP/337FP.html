@@ -1,0 +1,139 @@
+<html>
+<head>
+
+<title>337 Final Project</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="337FP.js"></script>
+<script type="text/javascript" src="ntc.js"></script>
+
+<link rel="stylesheet" type="text/css" href="337FP.css">
+
+</head>
+<body bgcolor="#43BFE8" onload="setup()">
+
+<div id="Title-Block" align = "center">
+	<h2 id="name">Michael Scott's</h2><br>
+	<h1 id="title">Color Picker</h1>
+</div>
+
+<div id="Main-Block-Background" >
+	<svg viewBox="0 0 100 100">
+		<rect x="0" y="0" height="55" width="100"
+              rx="5" ry="5"
+          style="fill: #ffffff; opacity: .50;"/>
+	</svg>
+</div>
+
+<div id="Color-Info" align="center">
+	<p id="colorName">"Color Name"</p>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	<p id="hexCodeTitle">Hex Code:</p>
+	<p id="hexCode">#43BFE8</p>
+</div>
+
+<div id="Plot-2D" bgcolor='"#ffffff'>
+
+	<svg id="PlotGraph" viewBox="0 0 100 100">
+
+		<filter id = "satFilt"><feColorMatrix in = "SourceGraphic" id="colorMatrix" type = "saturate" values = ".71"/></filter>
+
+		<rect id="BaseRect" x="0" y="0" height="100" width="100" rx="0" ry="0" fill="#43BFE8" style="stroke-width: 1; stroke: #000000; "/>
+
+		<rect id="HueRect" x="0" y="0" height="100" width="100" rx="0" ry="0" fill="url(#Hue)" style="stroke-width: 1; stroke: #000000; " filter="url(#satFilt)"/>
+			<linearGradient id="Hue" x1="0" y1="0" x2="1" y2="0">
+	    		<stop offset="0%" stop-color="#ff0000"/>
+	    		<stop offset="16.666667%" stop-color="#ffff00"/>
+	    		<stop offset="33.333333%" stop-color="#00ff00"/>
+	   	 		<stop offset="50%" stop-color="#00ffff"/>
+	    		<stop offset="66.666667%" stop-color="#0000ff"/>
+	    		<stop offset="83.333333%" stop-color="#ff00ff"/>
+	    		<stop offset="100%" stop-color="#ff0000"/>
+			</linearGradient>
+		
+		<rect id="SatRect" x="0" y="0" height="100" width="100" rx="0" ry="0" fill="url(#Sat)" style="stroke-width: 1; stroke: #000000; "/>
+		    <linearGradient id="Sat" x1="0" y1="0" x2="0" y2="1">
+	    		<stop offset="0%" stop-opacity="0"/>
+	    		<stop offset="100%" stop-color="#ffffff"/>
+			</linearGradient>
+		
+		<rect id="BrightRect" x="0" y="0" height="100" width="100" rx="0" ry="0" fill="url(#Bright)" style="stroke-width: 1; stroke: #000000; "/>
+			<linearGradient id="Bright" x1="0" y1="0" x2="0" y2="1">
+	    		<stop offset="0%" stop-opacity="0"/>
+	    		<stop offset="100%" stop-color="#000000"/>
+			</linearGradient>
+			
+		<rect id="BlackRect" x="0" y="0" height="100" width="100" rx="0" ry="0" fill="#000000" fill-opacity=".1" style="stroke-width: 1; stroke: #000000; "/>
+		<circle id="Selector-Circle" cx="" cy="" r="2" stroke="black" stroke-width=".5" fill-opacity="0" />
+	
+	</svg>
+</div>
+
+<div id="Adjust-Box">
+	
+	<svg id="adjust" viewBox="0 0 3 25">
+		
+		<rect id="BaseAdjust" x="0" y="0" height="25" width="3" rx="0" ry="0" fill="#43BFE8" style="stroke-width: .25; stroke: #000000; "/>
+		
+		<rect id="AdjustHue" x="0" y="0" height="25" width="3" rx="0" ry="0" fill="url(#HueAdjust)" style="stroke-width: .25; stroke: #000000; "/>
+			<linearGradient id="HueAdjust" x1="0" y1="1" x2="0" y2="0">
+	    		<stop offset="0%" stop-color="#ff0000"/>
+	    		<stop offset="16.666667%" stop-color="#ffff00"/>
+	    		<stop offset="33.333333%" stop-color="#00ff00"/>
+	   	 		<stop offset="50%" stop-color="#00ffff"/>
+	    		<stop offset="66.666667%" stop-color="#0000ff"/>
+	    		<stop offset="83.333333%" stop-color="#ff00ff"/>
+	    		<stop offset="100%" stop-color="#ff0000"/>
+			</linearGradient>
+		
+		<rect id="AdjustBright" x="0" y="0" height="25" width="3" rx="0" ry="0" fill="url(#BrightAdjust)" style="stroke-width: .25; stroke: #000000; "/>
+			<linearGradient id="BrightAdjust" x1="0" y1="0" x2="0" y2="1">
+	    		<stop offset="0%" stop-opacity="0"/>
+	    		<stop offset="100%" stop-color="#000000"/>
+			</linearGradient>
+		
+		<rect id="AdjustSat" x="0" y="0" height="25" width="3" rx="0" ry="0" fill="url(#SatAdjust)" style="stroke-width: .25; stroke: #000000; "/>
+			<linearGradient id="SatAdjust" x1="0" y1="0" x2="0" y2="1">
+	    		<stop offset="0%" stop-opacity="0"/>
+	    		<stop offset="100%" stop-color="#ffffff"/>
+	   	    </linearGradient>
+	   	
+	   	<line id="adjustLine" x1="0" y1="7.25" x2="3" y2="7.25" stroke="#000000" stroke-width=".15"/>
+	
+	</svg>
+</div>
+
+<div id="Chosen-Color">
+	<svg viewBox="0 0 20 7">
+		<rect id="CCRect" x="0" y="0" height="7" width="20" rx="0" ry="0" fill="#43BFE8" style="stroke-width: .25; stroke: #000000; "/>
+	</svg>
+</div>
+
+<div id="HueBox" onclick="HSBChange('hue')">
+	&nbsp;&nbsp;
+	<p>Hue:</p>
+	<p id="HueValue">194&deg;</p>
+</div>
+
+<div id="SatBox" onclick="HSBChange('sat')">
+	&nbsp;&nbsp;
+	<p>Saturation:</p>
+	<p id="SatValue">71%</p>
+</div>
+
+<div id="BrightBox" onclick="HSBChange('bright')">
+	&nbsp;&nbsp;
+	<p>Brightness:</p>
+	<p id="BrightValue">90%</p>
+</div>
+
+<div id="backgroundButton" onmousedown="changeBackground()">
+	<svg viewBox="0 0 20 7">
+		<rect id="ButtonRect" x="0" y="0" height="7" width="20" rx="1" ry="1" fill-opacity=".15" fill="#000000" style="stroke-width: .25; stroke: #000000;"/>
+	</svg>
+	<p id="buttonWords">Change Background</p>
+</div>
+
+
+</body>
+</html>

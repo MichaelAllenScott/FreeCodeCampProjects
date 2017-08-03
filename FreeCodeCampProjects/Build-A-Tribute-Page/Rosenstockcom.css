@@ -1,12 +1,7 @@
+/* HTML ELEMENTS */
 body {
     background-image: url("Assets/pink dust.png");
     background-repeat: repeat;
-}
-
-h1 { 
-    font-family: "bearpawregular", sans-serif; 
-    font-size: 160px;
-    color: #89dfff;
 }
 
 h3 { 
@@ -15,58 +10,65 @@ h3 {
     color: lightgray;
 }
 
-@media all and (max-width: 1200px) { /* screen size until 1200px */
-    h1 {
-        font-size: 120px; /* 1.5x default size */
-    }
-}
-@media all and (max-width: 1000px) { /* screen size until 1000px */
-    h1 {
-        font-size: 100px; /* 1.2x default size */
-        }
-    }
-@media all and (max-width: 700px) { /* screen size until 500px */
-    h1 {
-        font-size: 60px; /* 0.8x default size */
-        }
-    }
-
-#scribbles {
-    position: relative; 
-    top: -400; 
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
-    display: block;
-    z-index: -1;
-}
-
-#scribbleImg {
-    opacity: .55;
-}
-
-#HeaderText {
-    position: relative; 
-    top: 0;
-    left: 0; 
-    right: 0; 
-    bottom: 0; 
-    z-index: 1;
-    display: block;
-}
-
-.permanentFont {
+/* CLASSES */
+.PermanentFont {
     font-family: "permanent_markerregular", sans-serif;
 }
 
-.center {
-    text-align: center;
-}
-
-img {
+.AlbumImage {
     width: 100%;
 }
 
-.albumPanel {
+.AlbumPanel {
     background-color: #fff;
+}
+
+/* IDs */
+#jeff-rosenstock-title-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* MEDIA QUERIES */
+
+/* smartphones, iPhone, portrait 480x320 phones */
+@media (min-width:320px)  {
+    .MarkerIntroText {
+        font-size:15px;
+    }
+}
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+@media (min-width:481px)  {  
+    .MarkerIntroText {
+        font-size:20px;
+    }
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+@media (min-width:641px)  {  
+    .MarkerIntroText {
+        font-size:25px;
+    }
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:961px)  {  
+    .MarkerIntroText {
+        font-size:30px;
+    }
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {  
+    .MarkerIntroText {
+        font-size:35px;
+    }
+}
+
+/* hi-res laptops and desktops */
+@media (min-width:1281px) {  
+    .MarkerIntroText {
+        font-size:40px;
+    }
 }

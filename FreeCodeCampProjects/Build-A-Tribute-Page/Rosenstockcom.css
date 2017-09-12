@@ -10,6 +10,10 @@ h3 {
     color: lightgray;
 }
 
+li {
+    list-style-image: url('Assets/CustomBullets/LightningBolt.png');
+}
+
 /* CLASSES */
 .PermanentFont {
     font-family: "permanent_markerregular", sans-serif;
@@ -17,10 +21,23 @@ h3 {
 
 .AlbumImage {
     width: 100%;
+    margin-left: 10%;
 }
 
 .AlbumPanel {
-    background-color: #fff;
+    background-image: url("Assets/paper.jpg");
+    background-repeat: repeat;
+}
+
+.AlbumInfo {
+    font-family: 'Arimo', sans-serif;
+    font-size: 17px;
+}
+
+.SectionTitle {
+    font-family: "permanent_markerregular", sans-serif;
+    font-size: 22px;
+    text-decoration: underline;
 }
 
 /* IDs */

@@ -25,12 +25,16 @@ function SetListStyleImages() {
 function SetTornPaperImages() {
     const topImagePaths = new Array(
         "Assets/TornPaperEffects/torn-paper-top-1.png", 
-        "Assets/TornPaperEffects/torn-paper-top-2.png"
+        "Assets/TornPaperEffects/torn-paper-top-2.png",
+        "Assets/TornPaperEffects/torn-paper-top-3.png", 
+        "Assets/TornPaperEffects/torn-paper-top-4.png",
     );
 
     const bottomImagePaths = new Array(
         "Assets/TornPaperEffects/torn-paper-bottom-1.png", 
-        "Assets/TornPaperEffects/torn-paper-bottom-2.png"
+        "Assets/TornPaperEffects/torn-paper-bottom-2.png",
+        "Assets/TornPaperEffects/torn-paper-bottom-3.png",
+        "Assets/TornPaperEffects/torn-paper-bottom-4.png"
     );
 
     var topTornPaperElements = document.getElementsByClassName("TopTornPaper");

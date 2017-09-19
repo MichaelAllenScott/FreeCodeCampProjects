@@ -15,6 +15,14 @@ h3 {
     font-family: "permanent_markerregular", sans-serif;
 }
 
+.TornPaperContainer {
+    padding: 0;
+}
+
+.TornPaperImage {
+    width: 100%;
+}
+
 .AlbumImage {
     width: 100%;
     margin-left: 10%;

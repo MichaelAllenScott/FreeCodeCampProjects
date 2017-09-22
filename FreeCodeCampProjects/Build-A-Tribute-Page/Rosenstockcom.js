@@ -24,7 +24,6 @@ function SetListStyleImages() {
 
 function SetTornPaperImages() {
     const topImagePaths = new Array(
-        "Assets/TornPaperEffects/torn-paper-top-2.png",
         "Assets/TornPaperEffects/torn-paper-top-3.png", 
         "Assets/TornPaperEffects/torn-paper-top-4.png",
     );

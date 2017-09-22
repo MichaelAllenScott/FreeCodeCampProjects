@@ -3,6 +3,7 @@ All my projects created for Free Code Camp exercises
 
 ### 1. [Tribute Page](https://michaelallenscott.github.io/Projects/FreeCodeCampProjects/Build-A-Tribute-Page/Rosenstockcom.html)
   - Tribute page built around the discography of Jeff Rosenstock.
+  - Jeff Rosenstock's music is very chaotic and spastic, so I wanted this page to have a messy, notebook-scribble feel to it. I spent most of my time, first writing the album descriptions, then Illustrating the images that go along with each album. I'm really happy with the look and I learned a lot about web illustration + using custom images to really make a design pop.
 
 ### 3. [Random Quote Machine](https://michaelallenscott.github.io/Projects/FreeCodeCampProjects/Build-A-Random-Quote-Machine/Vonnequotes.html)
   - Random Quote Machine built for Kurt Vonnegut Quotes only.

@@ -4,10 +4,13 @@ body {
     background-repeat: repeat;
 }
 
-h3 { 
+h2 { 
     font-family: "permanent_markerregular", sans-serif; 
     font-size: 40px;
-    color: lightgray;
+}
+
+li {
+    font-family: 'Arimo', sans-serif;
 }
 
 /* CLASSES */
@@ -23,9 +26,16 @@ h3 {
     width: 100%;
 }
 
-.AlbumImage {
-    width: 100%;
-    margin-left: 10%;
+.SectionTitle {
+    font-family: "permanent_markerregular", sans-serif;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.MarkerIntroText {
+    font-size:15px;
+    font-family: "permanent_markerregular", sans-serif;
+    color: lightgray;
 }
 
 .AlbumPanel {
@@ -33,15 +43,26 @@ h3 {
     background-repeat: repeat;
 }
 
+.AlbumImage {
+    width: 100%;
+    margin-left: 15%;
+}
+
 .AlbumInfo {
     font-family: 'Arimo', sans-serif;
     font-size: 17px;
+    padding-right: 3%;
 }
 
-.SectionTitle {
+.NotableSongs {
+    font-size: 17px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.Quote {
     font-family: "permanent_markerregular", sans-serif;
-    font-size: 22px;
-    text-decoration: underline;
+    font-size: 14px;
+    margin-left: 7%;
 }
 
 /* IDs */
@@ -54,42 +75,161 @@ h3 {
 
 /* smartphones, iPhone, portrait 480x320 phones */
 @media (min-width:320px)  {
+    h2 { 
+        font-size: 15px;
+    }    
+    
     .MarkerIntroText {
         font-size:15px;
+    }
+
+    .SectionTitle {
+        font-size: 12px;
+    }    
+
+    .AlbumInfo {
+        font-size: 5px;
+    }
+
+    .NotableSongs {
+        font-size: 5px;
+    }
+
+    .Quote {
+        font-size: 5px;
     }
 }
 
 /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
 @media (min-width:481px)  {  
+    h2 { 
+        font-size: 20px;
+    }
+    
     .MarkerIntroText {
         font-size:20px;
+    }
+
+    .SectionTitle {
+        font-size: 14px;
+    }
+
+    .AlbumInfo {
+        font-size: 7px;
+    }
+
+    .NotableSongs {
+        font-size: 7px;
+    }
+
+    .Quote {
+        font-size: 7px;
     }
 }
 
 /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
 @media (min-width:641px)  {  
+    h2 {  
+        font-size: 25px;
+    }
+
     .MarkerIntroText {
         font-size:25px;
+    }
+
+    .SectionTitle {
+        font-size: 16px;
+    }
+
+    .AlbumInfo {
+        font-size: 9px;
+    }
+
+    .NotableSongs {
+        font-size: 9px;
+    }
+
+    .Quote {
+        font-size: 9px;
     }
 }
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
-@media (min-width:961px)  {  
+@media (min-width:961px)  { 
+    h2 { 
+        font-size: 30px;
+    } 
     .MarkerIntroText {
         font-size:30px;
+    }
+
+    .SectionTitle {
+        font-size: 18px;
+    }
+
+    .AlbumInfo {
+        font-size: 12px;
+    }
+
+    .NotableSongs {
+        font-size: 12px;
+    }
+
+    .Quote {
+        font-size: 11px;
     }
 }
 
 /* big landscape tablets, laptops, and desktops */
-@media (min-width:1025px) {  
+@media (min-width:1025px) { 
+    h2 { 
+        font-size: 35px;
+    }
+
     .MarkerIntroText {
         font-size:35px;
+    }
+
+    .SectionTitle {
+        font-size: 20px;
+    }
+
+    .AlbumInfo {
+        font-size: 14px;
+    }
+
+    .NotableSongs {
+        font-size: 14px;
+    }
+
+    .Quote {
+        font-size: 13px;
     }
 }
 
 /* hi-res laptops and desktops */
 @media (min-width:1281px) {  
+    h2 { 
+        font-size: 40px;
+    }
+
     .MarkerIntroText {
         font-size:40px;
+    }
+
+    .SectionTitle {
+        font-size: 22px;
+    }
+
+    .AlbumInfo {
+        font-size: 17px;
+    }
+
+    .NotableSongs {
+        font-size: 17px;
+    }
+
+    .Quote {
+        font-size: 16px;
     }
 }

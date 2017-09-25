@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import bootstrap.css-->
+  <link type="text/css" rel="stylesheet" href="../Libraries/bootstrap/css/bootstrap.min.css" media="screen,projection" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="../Libraries/font-awesome/css/font-awesome.min.css">
+
+  <!--Import Custom CSS-->
+  <link type="text/css" rel="stylesheet" href="./show-me-the-weather.css" media="screen,projection" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body onload="showMeTheWeather()">
+  <!--Custom JS-->
+  <script type="text/javascript" src="./show-me-the-weather.js"></script>
+
+  <!--jQuery-->
+  <script type="text/javascript" src="../Libraries/jquery.js"></script>
+
+  <div id="location-name-row">
+    <p id="location-text"></p>
+  </div>
+
+  <div id="weather-description-row">
+    <p id="description-text"></p>
+  </div>
+
+  <div id="temperature-row">
+    <p id="temperature-text"></p>
+    <button onclick="changeTempScale()">Convert Temp</button>
+  </div>
+
+</body>
+</html>

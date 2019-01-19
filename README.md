@@ -21,7 +21,7 @@ Projects done for Computer Science Major 3-5 years ago. Many of these are very o
   - Utilizes and SVG map to plot 2 different data sets
   - One of my first attempts at Data Visualization, A field I am very interested in.
   
-### - Picture-Unscrambler](https://michaelallenscott.github.io/Projects/CollegeProjects/Picture-Unscrambler/as4.html) 
+### - [Picture-Unscrambler](https://michaelallenscott.github.io/Projects/CollegeProjects/Picture-Unscrambler/as4.html) 
   - Created for an introduction to javascript course, this is pretty basic
   - However there is a little bonus after solving the puzzle that I enjoyed making. This was one of my first attempts at adding interesting visual illustrations to make the webpage more interesting.
   

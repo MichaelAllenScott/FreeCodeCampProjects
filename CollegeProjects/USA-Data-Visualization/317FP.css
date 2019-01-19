@@ -1,0 +1,42 @@
+/* Created By Michael Scott for CPSC 317*/
+
+/* Header */
+h1{
+	font-family: 'Bitter', serif;
+}
+
+/* Title */
+#title{
+	width: 100%;
+	position: fixed;
+	margin-bottom: 0;
+}
+
+/* Top Text*/
+#industryText{
+	margin-bottom: 0;
+}
+
+/* Name of States*/
+#stateName{
+	transition: color 1s ease;
+	margin-top: -1%;
+	font-family: 'Bitter', serif;
+	color: #000000;
+}
+
+/* SVG Map*/
+#map{
+	position: fixed;
+	margin-left: 10%;
+	margin-top: 4%;
+}
+
+/* SVG state by state*/
+.state {
+	fill:#d3d3d3;
+	stroke:#666699;
+	stroke-width:0.75;
+	stroke-opacity:1;
+	transition: fill 0.4s ease;
+}

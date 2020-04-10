@@ -1,0 +1,11 @@
+C:\Users\MichaelScott\source\repos\Design-Pattern-Project\Design-Pattern-Project\obj\Debug\netcoreapp3.1\Design-Pattern-Project.AssemblyInfoInputs.cache
+C:\Users\MichaelScott\source\repos\Design-Pattern-Project\Design-Pattern-Project\obj\Debug\netcoreapp3.1\Design-Pattern-Project.AssemblyInfo.cs
+C:\Users\MichaelScott\source\repos\Design-Pattern-Project\Design-Pattern-Project\obj\Debug\netcoreapp3.1\Design-Pattern-Project.dll
+C:\Users\MichaelScott\source\repos\Design-Pattern-Project\Design-Pattern-Project\obj\Debug\netcoreapp3.1\Design-Pattern-Project.pdb
+C:\Users\MichaelScott\source\repos\Design-Pattern-Project\Design-Pattern-Project\bin\Debug\netcoreapp3.1\Design-Pattern-Project.exe
+C:\Users\MichaelScott\source\repos\Design-Pattern-Project\Design-Pattern-Project\bin\Debug\netcoreapp3.1\Design-Pattern-Project.deps.json
+C:\Users\MichaelScott\source\repos\Design-Pattern-Project\Design-Pattern-Project\bin\Debug\netcoreapp3.1\Design-Pattern-Project.runtimeconfig.json
+C:\Users\MichaelScott\source\repos\Design-Pattern-Project\Design-Pattern-Project\bin\Debug\netcoreapp3.1\Design-Pattern-Project.runtimeconfig.dev.json
+C:\Users\MichaelScott\source\repos\Design-Pattern-Project\Design-Pattern-Project\bin\Debug\netcoreapp3.1\Design-Pattern-Project.dll
+C:\Users\MichaelScott\source\repos\Design-Pattern-Project\Design-Pattern-Project\bin\Debug\netcoreapp3.1\Design-Pattern-Project.pdb
+C:\Users\MichaelScott\source\repos\Design-Pattern-Project\Design-Pattern-Project\obj\Debug\netcoreapp3.1\Design-Pattern-Project.csprojAssemblyReference.cache

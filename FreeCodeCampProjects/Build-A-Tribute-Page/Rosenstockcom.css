@@ -2,6 +2,7 @@
 body {
     background-image: url("Assets/pink dust.png");
     background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 h2 { 
